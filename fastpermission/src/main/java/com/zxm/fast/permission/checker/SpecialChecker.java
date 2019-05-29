@@ -5,8 +5,8 @@ import android.os.Build;
 import android.provider.Settings;
 import android.support.v4.app.NotificationManagerCompat;
 
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.debug.PermissionDebug;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.debug.PermissionDebug;
 
 
 /**

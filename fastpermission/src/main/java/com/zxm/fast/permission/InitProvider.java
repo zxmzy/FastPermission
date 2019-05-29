@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.zxm.easypermission.debug.PermissionDebug;
+import com.zxm.fast.permission.debug.PermissionDebug;
 
 /**
  * Created by zhangxiaoming.

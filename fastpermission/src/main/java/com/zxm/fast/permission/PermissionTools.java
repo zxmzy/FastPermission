@@ -16,9 +16,9 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.debug.PermissionDebug;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.debug.PermissionDebug;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 
-import com.zxm.easypermission.debug.PermissionDebug;
-import com.zxm.easypermission.exception.ContainerStatusException;
-import com.zxm.easypermission.exception.InitException;
+import com.zxm.fast.permission.debug.PermissionDebug;
+import com.zxm.fast.permission.exception.ContainerStatusException;
+import com.zxm.fast.permission.exception.InitException;
 
 import java.util.ArrayList;
 import java.util.List;

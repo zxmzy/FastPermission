@@ -3,9 +3,9 @@ package com.zxm.fast.permission.request;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.callback.RequestPermissionListener;
-import com.zxm.easypermission.callback.SpecialPermissionListener;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.callback.RequestPermissionListener;
+import com.zxm.fast.permission.callback.SpecialPermissionListener;
 
 /**
  * Created by zhangxiaoming.

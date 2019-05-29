@@ -10,15 +10,15 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 
-import com.zxm.easypermission.Constants;
-import com.zxm.easypermission.PermissionTools;
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.callback.RequestPermissionListener;
-import com.zxm.easypermission.callback.SpecialPermissionListener;
-import com.zxm.easypermission.checker.SpecialChecker;
-import com.zxm.easypermission.debug.PermissionDebug;
-import com.zxm.easypermission.request.IPermissionActions;
+import com.zxm.fast.permission.Constants;
+import com.zxm.fast.permission.PermissionTools;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.callback.RequestPermissionListener;
+import com.zxm.fast.permission.callback.SpecialPermissionListener;
+import com.zxm.fast.permission.checker.SpecialChecker;
+import com.zxm.fast.permission.debug.PermissionDebug;
+import com.zxm.fast.permission.request.IPermissionActions;
 
 /**
  * Created by zhangxiaoming.

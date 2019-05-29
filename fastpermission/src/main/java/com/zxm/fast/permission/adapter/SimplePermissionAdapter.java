@@ -1,7 +1,7 @@
 package com.zxm.fast.permission.adapter;
 
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.callback.CheckRequestPermissionListener;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.callback.CheckRequestPermissionListener;
 
 /**
  * Created by zhangxiaoming.

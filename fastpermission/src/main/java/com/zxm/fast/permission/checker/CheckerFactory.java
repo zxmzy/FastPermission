@@ -2,8 +2,8 @@ package com.zxm.fast.permission.checker;
 
 import android.content.Context;
 
-import com.zxm.easypermission.PermissionTools;
-import com.zxm.easypermission.bean.Special;
+import com.zxm.fast.permission.PermissionTools;
+import com.zxm.fast.permission.bean.Special;
 
 /**
  * Created by zhangxiaoming.

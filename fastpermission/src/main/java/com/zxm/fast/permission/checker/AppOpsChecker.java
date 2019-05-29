@@ -6,7 +6,7 @@ import android.content.Context;
 import android.os.Binder;
 import android.os.Build;
 
-import com.zxm.easypermission.debug.PermissionDebug;
+import com.zxm.fast.permission.debug.PermissionDebug;
 
 import java.lang.reflect.Method;
 

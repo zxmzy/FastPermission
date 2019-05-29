@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-import com.zxm.easypermission.EasyPermission;
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.callback.CheckRequestPermissionListener;
+import com.zxm.fast.permission.EasyPermission;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.callback.CheckRequestPermissionListener;
 
 /**
  * Created by zhangxiaoming.

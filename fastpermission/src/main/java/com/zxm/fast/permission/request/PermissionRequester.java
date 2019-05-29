@@ -4,11 +4,11 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
 
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.callback.RequestPermissionListener;
-import com.zxm.easypermission.callback.SpecialPermissionListener;
-import com.zxm.easypermission.request.fragment.FragmentProxy;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.callback.RequestPermissionListener;
+import com.zxm.fast.permission.callback.SpecialPermissionListener;
+import com.zxm.fast.permission.request.fragment.FragmentProxy;
 
 /**
  * Created by zhangxiaoming.

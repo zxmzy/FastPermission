@@ -1,6 +1,6 @@
 package com.zxm.fast.permission.callback;
 
-import com.zxm.easypermission.bean.Permission;
+import com.zxm.fast.permission.bean.Permission;
 
 /**
  * Created by zhangxiaoming.

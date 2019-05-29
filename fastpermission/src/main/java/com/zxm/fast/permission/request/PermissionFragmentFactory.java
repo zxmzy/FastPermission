@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
-import com.zxm.easypermission.request.fragment.PermissionFragment;
-import com.zxm.easypermission.request.fragment.PermissionSupportFragment;
+import com.zxm.fast.permission.request.fragment.PermissionFragment;
+import com.zxm.fast.permission.request.fragment.PermissionSupportFragment;
 
 /**
  * Created by zhangxiaoming.

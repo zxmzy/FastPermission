@@ -5,9 +5,9 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 
-import com.zxm.easypermission.EasyPermission;
-import com.zxm.easypermission.R;
-import com.zxm.easypermission.debug.PermissionDebug;
+import com.zxm.fast.permission.EasyPermission;
+import com.zxm.fast.permission.R;
+import com.zxm.fast.permission.debug.PermissionDebug;
 
 /**
  * Created by zhangxiaoming.

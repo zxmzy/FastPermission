@@ -11,17 +11,17 @@ import android.support.annotation.CheckResult;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.zxm.easypermission.bean.Permission;
-import com.zxm.easypermission.bean.Permissions;
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.callback.CheckRequestPermissionListener;
-import com.zxm.easypermission.callback.CheckRequestPermissionsListener;
-import com.zxm.easypermission.callback.CheckStatusCallBack;
-import com.zxm.easypermission.callback.RequestPermissionListener;
-import com.zxm.easypermission.callback.SpecialPermissionListener;
-import com.zxm.easypermission.checker.CheckerFactory;
-import com.zxm.easypermission.debug.PermissionDebug;
-import com.zxm.easypermission.request.PermissionRequester;
+import com.zxm.fast.permission.bean.Permission;
+import com.zxm.fast.permission.bean.Permissions;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.callback.CheckRequestPermissionListener;
+import com.zxm.fast.permission.callback.CheckRequestPermissionsListener;
+import com.zxm.fast.permission.callback.CheckStatusCallBack;
+import com.zxm.fast.permission.callback.RequestPermissionListener;
+import com.zxm.fast.permission.callback.SpecialPermissionListener;
+import com.zxm.fast.permission.checker.CheckerFactory;
+import com.zxm.fast.permission.debug.PermissionDebug;
+import com.zxm.fast.permission.request.PermissionRequester;
 
 import java.util.LinkedList;
 import java.util.List;

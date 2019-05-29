@@ -2,11 +2,11 @@ package com.zxm.fast.permission.request.fragment;
 
 import android.support.annotation.NonNull;
 
-import com.zxm.easypermission.bean.Special;
-import com.zxm.easypermission.callback.RequestPermissionListener;
-import com.zxm.easypermission.callback.SpecialPermissionListener;
-import com.zxm.easypermission.debug.PermissionDebug;
-import com.zxm.easypermission.request.IPermissionActions;
+import com.zxm.fast.permission.bean.Special;
+import com.zxm.fast.permission.callback.RequestPermissionListener;
+import com.zxm.fast.permission.callback.SpecialPermissionListener;
+import com.zxm.fast.permission.debug.PermissionDebug;
+import com.zxm.fast.permission.request.IPermissionActions;
 
 /**
  * Created by zhangxiaoming.

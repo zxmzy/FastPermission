@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 
-import com.zxm.fast.permission.EasyPermission;
+import com.zxm.fast.permission.FastPermission;
 import com.zxm.fast.permission.R;
 import com.zxm.fast.permission.debug.PermissionDebug;
 
@@ -80,7 +80,7 @@ public class Permission {
      * @return desc of permission
      */
     public String getPermissionNameDesc() {
-        Context context = EasyPermission.getInstance().getContext();
+        Context context = FastPermission.getInstance().getContext();
         if (null == context) {
             PermissionDebug.e(TAG, "soul permission do not inited");
             return "";

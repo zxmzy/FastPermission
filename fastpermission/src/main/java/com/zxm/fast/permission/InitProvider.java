@@ -21,7 +21,7 @@ public class InitProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
         PermissionDebug.d(InitProvider.class.getSimpleName(), "auto init");
-        EasyPermission.getInstance().autoInit((Application) getContext());
+        FastPermission.getInstance().autoInit((Application) getContext());
         return true;
     }
 

@@ -8,6 +8,6 @@ package com.zxm.fast.permission.exception;
 public class InitException extends IllegalStateException {
 
     public InitException() {
-        super("auto init failed ,you need invoke EasyPermission.init() in your application");
+        super("auto init failed ,you need invoke FastPermission.init() in your application");
     }
 }

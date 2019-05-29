@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-import com.zxm.fast.permission.EasyPermission;
+import com.zxm.fast.permission.FastPermission;
 import com.zxm.fast.permission.bean.Permission;
 import com.zxm.fast.permission.callback.CheckRequestPermissionListener;
 
@@ -18,7 +18,7 @@ public abstract class CheckPermissionAdapter implements CheckRequestPermissionLi
     @Override
     public void onPermissionDenied(Permission permission) {
         //SoulPermission提供栈顶Activity
-        Activity activity = EasyPermission.getInstance().getTopActivity();
+        Activity activity = FastPermission.getInstance().getTopActivity();
         if (null == activity) {
             return;
         }
@@ -36,7 +36,7 @@ public abstract class CheckPermissionAdapter implements CheckRequestPermissionLi
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         //去设置页
-                        EasyPermission.getInstance().goPermissionSettings();
+                        FastPermission.getInstance().goPermissionSettings();
                     }
                 }).create().show();
     }

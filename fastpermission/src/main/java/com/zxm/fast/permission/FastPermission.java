@@ -32,10 +32,10 @@ import java.util.List;
  * Date: 2019/5/28
  * Description
  */
-public class EasyPermission {
-    private static final String TAG = EasyPermission.class.getSimpleName();
+public class FastPermission {
+    private static final String TAG = FastPermission.class.getSimpleName();
 
-    private static EasyPermission instance;
+    private static FastPermission instance;
 
     private static Application globalContext;
 
@@ -46,11 +46,11 @@ public class EasyPermission {
     /**
      * 获取 SoulPermission 对象
      */
-    public static EasyPermission getInstance() {
+    public static FastPermission getInstance() {
         if (null == instance) {
-            synchronized (EasyPermission.class) {
+            synchronized (FastPermission.class) {
                 if (instance == null) {
-                    instance = new EasyPermission();
+                    instance = new FastPermission();
                 }
             }
         }
@@ -248,7 +248,7 @@ public class EasyPermission {
         registerLifecycle(globalContext);
     }
 
-    private EasyPermission() {
+    private FastPermission() {
     }
 
     private void registerLifecycle(Application context) {

@@ -315,7 +315,7 @@ public class FastPermission {
         callBack.onStatusOk(activity);
     }
 
-    private void requestPermissions(final Permissions permissions, final CheckRequestPermissionsListener listener) {
+    public void requestPermissions(final Permissions permissions, final CheckRequestPermissionsListener listener) {
         checkStatusBeforeDoSomething(new CheckStatusCallBack() {
             @Override
             public void onStatusOk(Activity activity) {
